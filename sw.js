@@ -10,6 +10,7 @@ this.addEventListener('install', function(e) {
 			'/test/images/handshake.jpg',
 			'/test/images/smile.jpg',
 			'/test/images/family-small.jpg',
+			'/test/images/interface.png',
 		]);
 	}));
 });
