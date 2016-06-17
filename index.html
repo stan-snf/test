@@ -156,9 +156,9 @@
 	<script>
 		if ('serviceWorker' in navigator) {
 			navigator.serviceWorker.register(
-				'/js/sw.js',
-				{scope: '*'}
-			).then(success, failure);
+				'/test/js/sw.js',
+				{scope: '/test/*'}
+			);
 		}
 	</script>
 </body>
