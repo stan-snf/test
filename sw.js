@@ -8,7 +8,6 @@ this.addEventListener('install', function(e) {
 });
 
 this.addEventListener('fetch', function(e) {
-	console.log (caches.match(e.request));
 	e.respondWith(
 		caches.match(e.request)
 	);
