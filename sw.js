@@ -8,6 +8,7 @@ this.addEventListener('install', function(e) {
 			'/test/images/family-large.jpg',
 			'/test/images/meeting.jpg',
 			'/test/images/handshake.jpg',
+			'/test/images/smile.jpg',
 			'/test/images/family-small.jpg',
 		]);
 	}));
