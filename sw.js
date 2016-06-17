@@ -1,6 +1,6 @@
 this.addEventListener('install', function(e) {
 	e.waitUntil(caches.open('site-v1').then(function(cache) {
-		return cache.add([
+		return cache.addAll([
 			'/test/',
 			'/test/css/style.css'
 		]);
