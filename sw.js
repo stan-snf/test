@@ -3,6 +3,7 @@ this.addEventListener('install', function(e) {
 		return cache.addAll([
 			'/test/',
 			'/test/index.html',
+			'/test/about.html',
 			'/test/css/style.css',
 			'/test/images/logo.png',
 			'/test/images/family-large.jpg',
